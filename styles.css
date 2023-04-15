@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flexbox;
+    height: 25vh;
+}
+
+header h2 {
+    font-size: 1.25rem;
+}
+
+nav {
+    width: 15vw;
+    height: 15vh;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: lightgray;
+    text-align: left;
+    float: right;
+}
+
+nav h3 {
+    margin: 5px;
+}
+
+nav p {
+    margin: 5px;
+}
+
+nav ul {
+    padding-left: 20px;
+}
+
+.hw_section {
+    margin-inline: 5px;
+    margin-top: 15px;
+}
+
+.hw_section_contents {
+    background-color: lightgray;
+    padding-left: 20px;
+}
