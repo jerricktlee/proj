@@ -40,6 +40,11 @@ nav ul {
 }
 
 .hw_section_contents {
-    background-color: lightgray;
     padding-left: 20px;
+}
+
+.hw2_grid {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 }
