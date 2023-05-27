@@ -29,6 +29,25 @@
 </head>
 
 <body>
+    <script>
+        // Generate a random session ID
+        var sessionId = generateSessionId();
+    
+        // Store the session ID in localStorage
+        localStorage.setItem('sessionID', sessionId);
+    
+        // Function to generate a random session ID
+        function generateSessionId() {
+          var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+          var sessionId = '';
+    
+          for (var i = 0; i < 16; i++) {
+            sessionId += chars.charAt(Math.floor(Math.random() * chars.length));
+          }
+    
+          return sessionId;
+        }
+      </script>
 <header>
     <h1>CSE 135</h1>
     <h2>Spring 2023</h2>
